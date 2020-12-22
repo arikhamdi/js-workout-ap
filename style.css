@@ -1,0 +1,198 @@
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8ff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button:focus {
+  outline: 0;
+}
+
+body.darkMode {
+  background-color: #222222;
+}
+
+#container {
+  height: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+#trainingPlanWrapper {
+  padding-left: 90;
+}
+
+.sidebar {
+  width: 348;
+  padding: 26;
+  box-shadow: 2px 0px 2px #203186;
+  overflow-y: auto;
+}
+
+.darkMode .sidebar {
+  box-shadow: 2px 0px 2px #23252d;
+}
+
+.darkBlueBg {
+  background-color: #203186;
+}
+
+.lightBlueBg {
+  background-color: #616dc4;
+}
+
+.yellowBg {
+  background-color: #f7d855;
+}
+
+.whiteText {
+  color: #ffffff;
+}
+
+.darkBlueText {
+  color: #203186;
+}
+
+.lightBlueText {
+  color: #616dc4;
+}
+
+.yellowText {
+  color: #f7d855;
+}
+
+.darkMode .darkBlueBg {
+  background-color: #0e101c;
+}
+
+.darkMode .lightBlueBg {
+  background-color: #616dc4;
+}
+
+.darkMode .yellowBg {
+  background-color: #f7d855;
+}
+
+.darkMode .whiteText {
+  color: #ffffff;
+}
+
+.darkMode .darkBlueText {
+  color: #a4aac9;
+}
+
+.darkMode .lightBlueText {
+  color: #616dc4;
+}
+
+.darkMode .yellowText {
+  color: #f7d855;
+}
+
+.thinHeader {
+  font-weight: lighter;
+}
+
+.header {
+  font-size: 36;
+}
+
+.subHeader {
+  font-size: 24;
+}
+
+li {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 4;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addButton {
+  border-radius: 5px;
+  width: 24px;
+  height: 24px;
+  font-weight: bolder;
+}
+
+.removeButton {
+  border-radius: 5px;
+  width: 70px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.dayBtn {
+  width: 130px;
+  height: 32px;
+  color: #f7d855;
+  font-weight: normal;
+  text-transform: capitalize;
+  border: none;
+}
+
+.weekDays {
+  display: flex;
+  flex-direction: row;
+}
+
+.day {
+  background-color: #616dc4;
+}
+
+.selectedDay {
+  background-color: #203186;
+  font-weight: bold;
+}
+
+.darkMode #trainingPlan li {
+  color: #ffffff;
+}
+
+#trainingPlan li {
+  color: #000000;
+  padding: 11px;
+  border-bottom: 1px solid #616dc4;
+}
+
+#calories {
+  padding-left: 40px;
+}
+
+.formLabel {
+  flex: 1;
+  color: #ffffff;
+}
+
+.formInput {
+  flex: 1;
+}
+
+.addNewWorkout {
+  border-radius: 5px;
+  height: 24px;
+  font-weight: bolder;
+}
+
+.uiModeSwitch {
+  width: 82px;
+  height: 36px;
+  margin: 0 10px;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-image: url("on_dark.png");
+}
+
+.darkMode .uiModeSwitch {
+  background-image: url("on_light.png");
+}
